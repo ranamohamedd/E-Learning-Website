@@ -1,0 +1,666 @@
+:root{
+    --main-font: 'Caveat', cursive;
+    --main-color: #150f28 ;
+    --after-color: #fda727;
+    --sec-font: 'Playfair Display SC', serif;;
+}
+
+#navbg {
+    background-color: var(--main-color);
+    box-shadow: 15px 10px 15px 10px rgba(24, 20, 20, 0.25);
+}
+
+#nav .navbar-nav .nav-item a{
+    color: white;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
+}
+#nav .navbar-brand{
+    
+    font-size: 2rem;
+}
+
+
+#home{
+   /*background-image: linear-gradient(to right,#18005f,#28005d,#3f0059,#560056);*/
+   background-image: url(../imgs/3.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+    
+}
+#home h1{
+   font-size: 6rem;
+   position: relative;
+   font-family: var(--sec-font);
+}
+#home h1::after{
+    content: "";
+    width: 60%;
+    bottom: 0;
+    right: 0%;
+    left: 0%;
+    height: 8px;
+    background-color: var(--after-color);
+    position: absolute;
+}
+#home p{
+    font-size: 1.2rem;
+}
+#home span{
+    letter-spacing: 6px;
+    color: var(--after-color);
+    font-weight: bold;
+}
+#home .icon{
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: white;
+    color: var(--main-color);
+    
+}
+#home .icon:hover{
+    background-color: var(--after-color);
+    color: black;
+    
+}
+#overlay{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    
+    
+}
+
+
+#services .row  h2{
+    font-size: 4rem;
+    color: var(--main-color);
+    font-family: var(--sec-font);
+    position: relative; 
+}
+
+#services .row h2::after{
+    content: "";
+    width: 100%;
+    bottom: 0;
+    right: 0%;
+    left: 0%;
+    height: 8px;
+    background-color: var(--after-color);
+    position: absolute;
+}
+#services .container .row .content{
+    border-radius: 5rem;
+    border: solid;
+    border-color: var(--main-color);
+    width: 20rem;
+    
+}
+
+#services .container .row p{
+    color: var(--main-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #150f28;
+    
+}
+
+#services .container .sec-row .content{
+    border-radius: 5rem;
+    border: solid;
+    border-color: #fda727;
+}
+
+#courses{
+    background-image: url(../imgs/11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#courses .row  h2{
+    font-size: 3rem;
+    color: white;
+    font-family: var(--sec-font);
+    position: relative; 
+}
+
+#courses .row h2::after{
+    content: "";
+    width: 100%;
+    bottom: 0;
+    right: 0%;
+    left: 0%;
+    height: 8px;
+    background-color: var(--after-color);
+    position: absolute;
+}
+
+#courses .row .course{
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 1s;
+}
+
+#courses .row .course:hover{
+    background-color: white;
+    scale: 1.02;
+}
+
+#courses .row .course img{
+    width: 30rem;
+    height: 15rem;
+}
+
+
+#courses .row .col-item .course h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--main-color);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#courses .row .col-item .course p{
+    color: var(--main-color);
+    font-weight: bold;
+    padding-right: 0.5rem;
+    
+}
+#courses .row .col-item .course button{
+    background-color: var(--main-color);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border:none;
+}
+#courses .row .col-item .course button:hover{
+    background-color: white;
+    color: var(--main-color);
+    border: solid;
+    border-color: var(--main-color);
+    border-radius: 1rem ;
+}
+
+/* #about{
+    background-image: url(../imgs/lab.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+
+#about h2{
+        font-size: 4rem;
+        color: var(--main-color);
+        font-family: var(--sec-font);
+        position: relative; 
+}
+    
+#about  h2::after{
+        content: "";
+        width: 100%;
+        bottom: 0;
+        right: 0%;
+        left: 0%;
+        height: 8px;
+        background-color: var(--after-color);
+        position: absolute;
+}
+
+#about p{
+    color: var(--main-color);
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#about img{
+    height: 40rem;
+    width: 35rem;
+}
+
+
+
+
+#assessment h2{
+    font-size: 4rem;
+        color: var(--main-color);
+        font-family: var(--sec-font);
+        position: relative; 
+}
+    
+#assessment  h2::after{
+        content: "";
+        width: 55%;
+        bottom: 0;
+        right: 0%;
+        left: 0%;
+        height: 10px;
+        background-color: var(--after-color);
+        position: absolute;
+}
+#assessment .circle{
+    top: 0;
+    right: 0;
+    z-index: 0;
+
+}
+
+.assess{
+    position: relative;
+    z-index: 2;
+    border: solid;
+    border-color: var(--main-color);
+    border-radius: 1rem;
+    transition: all 1s;
+    background:rgba(255, 255, 255, 0.7) ;
+}
+.assess:hover{
+    scale: 1.05;
+    background-color: white;
+}
+.assess img{
+    height: 20rem;
+    width: 30rem;
+    
+}
+.assess h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--main-color);
+}
+.assess button{
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 1.5rem;
+    width: 16rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+.assess button:hover{
+    background-color: white;
+    border:solid;
+    border-radius: 1rem;
+    color: var(--main-color);
+    
+}
+
+#contact .container .row .title h2{
+    font-family: var(--sec-font);
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: 4rem;
+    position: relative;
+    
+
+}
+#contact .container .row .title h2::after{
+    content: "";
+    width: 100%;
+    bottom: 0;
+    right: 0%;
+    left: 0%;
+    height: 10px;
+    background-color: var(--after-color);
+    position: absolute;
+}
+
+
+
+#contact .container .row .cont-way .cont-icon i{
+    width: 4rem;
+    height: 4rem;
+    background-color: #f4f4f4;
+    border-radius: 6rem;
+    color: var(--main-color);
+}
+#contact .row .cont-way .cont-icon .icon:hover{
+    background-color: var(--main-color);
+    color: white;
+    
+}
+#contact .row .cont-way h6{
+    
+    font-weight: 500;
+}
+#contact .row .cont-way p{
+
+    color: #748182;
+
+}
+#contact .row button{
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: var(--main-color);
+    color: white;
+}
+#contact .row button:hover{
+    background-color: white;
+    color: var(--main-color);
+}
+
+#contact .row .inputs input{
+    border-radius: 0.5rem;
+    border: none;
+    background-color:rgb(224,224,244);
+    height: 3rem;
+    outline: none;
+}
+
+#contact .row .inputs textarea{
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background-color:rgb(224,224,244);
+}
+#footer{
+    background-color: var(--main-color);
+}
+#footer .container span{
+    color: var(--after-color);
+}
+#spinner{
+    border-radius: 2rem;
+}
+
+
+
+#carousel-inst{
+    background-image: url(../imgs/sky2.jpeg);
+
+    /* background-image: url(../imgs/instructors.jpeg);
+    /* background-image: linear-gradient(to right,#18005f,#28005d,#3a0a4f,#460746); */
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+     position: relative;  
+    
+
+}
+
+.overlay-caros{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(64, 64, 67, 0.5);
+    
+}
+
+#carousel-inst .row  h2{
+    font-size: 4rem;
+    color: white;
+    font-family: var(--sec-font);
+    position: relative; 
+    z-index: 1;
+}
+
+#carousel-inst .row h2::after{
+    content: "";
+    width: 100%;
+    bottom: 0;
+    right: 0%;
+    left: 0%;
+    height: 10px;
+    background-color: var(--after-color);
+    position: absolute;
+    z-index: 1;
+}
+#carousel-inst .row p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    letter-spacing: 2px;
+    
+}
+
+div#carousel { 
+    perspective: 1200px; 
+    
+    padding-top: 10%; 
+    font-size:0; 
+    margin-bottom: 3rem; 
+    /* margin-left: 12rem; */
+    overflow: hidden; 
+    border-radius: 2rem;
+  }
+  #carousel .card{
+    border-radius: 2rem;
+    background-color: white;
+  }
+  #carousel .card img{
+    border-radius: 2rem;
+    height: 30rem;
+    width: 25rem;
+  }
+
+  #carousel .card h5{
+    color: var(--main-color);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  #carousel .card h6{
+    color: var(--main-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+  }
+  #carousel .card a{
+    border: solid;
+    border-color: #150f28;
+    height: 3.5rem;
+    background-color: #150f28;
+    border-radius: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    
+   
+
+  }
+  figure#spinner { 
+    transform-style: preserve-3d; 
+    height: 700px; 
+    transform-origin: 50% 50% -500px; 
+    transition: 1s; 
+   
+    
+    
+  } 
+  figure#spinner div { 
+    width: 70%; max-width: 425px; 
+    position: absolute; left: 30%;
+    transform-origin: 50% 50% -500px;
+    outline:1px solid transparent; 
+    background-color: white;
+    height: 650px;
+   
+  }
+  figure#spinner div:nth-child(1) { transform:rotateY(0deg); 
+  }
+  figure#spinner div:nth-child(2) { transform: rotateY(-45deg); }
+  figure#spinner div:nth-child(3) { transform: rotateY(-90deg); }
+  figure#spinner div:nth-child(4) { transform: rotateY(-135deg); }
+  figure#spinner div:nth-child(5){ transform: rotateY(-180deg); }
+  figure#spinner div:nth-child(6){ transform: rotateY(-225deg); }
+  figure#spinner div:nth-child(7){ transform: rotateY(-270deg); }
+  figure#spinner div:nth-child(8){ transform: rotateY(-315deg); }
+  div#carousel ~ span { 
+    color: #fff; 
+    margin: 5%; 
+    display: inline-block; 
+    text-decoration: none; 
+    font-size: 2rem; 
+    transition: 0.6s color; 
+    position: relative; 
+    margin-top: -6rem; 
+    border-bottom: none; 
+    line-height: 0; }
+  div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+  .info h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: var(--sec-font);
+    color: var(--main-color);
+    position: relative;
+  }
+  .info h2::after{
+    content: "";
+    width: 60%;
+    bottom: 0;
+    right: 0%;
+    left: 0%;
+    height: 8px;
+    background-color: var(--after-color);
+    position: absolute;
+   
+}
+.info #desc{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: var(--main-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.info .bio{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: var(--main-color);
+}
+.info p{
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.info .icon{
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: var(--main-color);
+    color: white;
+    
+}
+.info .icon:hover{
+    background-color: var(--after-color);
+    color: var(--main-color);
+    
+}
+#Sign{
+    background-image: url(../imgs/mount3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SignUp{
+    margin-top: 10rem;
+
+    background: rgba(23, 23, 23, 0.8);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    height: 32rem;
+    width: 60rem;
+  }
+  .SignUp h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: var(--sec-font);
+  }
+  .SignUp .form-group input{
+    background: transparent;
+    color: white;
+    font-weight: 500;
+  
+  }
+  
+  .SignUp button{
+    background: transparent;
+    border-color:white;
+    height: 2.7rem;
+    color: white;
+    transition: 0.2s;
+    
+  }
+  .SignUp button:hover{
+    background-color: #17a2b8;
+    color: white;
+    
+  }
+  .SignUp #successful{
+    color: green;
+  }
+  .SignUp a{
+    text-decoration: none;
+  }
+  .SignUp a:hover{
+    text-decoration: underline;
+  }
+
+  #log{
+    background-image: url(../imgs/mount3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    margin-top: 10rem;
+
+    background: rgba(23, 23, 23, 0.8);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    height: 32rem;
+    width: 60rem;
+  }
+  .login h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: var(--sec-font);
+  }
+  .login .form-group input{
+    background: transparent;
+    color: white;
+    font-weight: 500;
+  
+  }
+  
+  .login button{
+    background: transparent;
+    border-color:white;
+    height: 2.7rem;
+    color: white;
+    transition: 0.2s;
+    
+  }
+  .login button:hover{
+    background-color: #17a2b8;
+    color: white;
+    
+  }
+  .login #successful{
+    color: green;
+  }
+  .login a{
+    text-decoration: none;
+  }
+  .login a:hover{
+    text-decoration: underline;
+  }

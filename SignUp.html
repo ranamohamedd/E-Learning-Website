@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Start NavBar-->
+    <section id="nav" class="my-5" >
+        <nav id="navbg" class="nav-bar navbar navbar-expand-lg navbar-dark fixed-top ">
+            <div class="container">
+              <a class="navbar-brand fw-bolder" href="./index.html#home">Renova</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#courses">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#carousel-inst">Instructors</a>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#contact">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Assessments.html">Assessments</a>
+                  </li>
+                  
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!--End NavBar-->
+
+
+    <!--Start Signup Section-->
+    <section id="Sign" class="vh-100">
+        <div class="container d-flex align-items-center justify-content-center my-5">
+            <div class="SignUp ">
+                <h1 class="text-center my-5">Smart Login System</h1>
+                <div class="form-group  mb-4  mx-5">
+                    <input type="text" class="form-control border-white  fs-5 d-flex align-items-center justify-content-center" id="sign-name" placeholder="Enter Your UserName"/>
+                  </div>
+                <div class="form-group  mb-4  mx-5">
+                    <input type="email" class="form-control border-white  fs-5 d-flex align-items-center justify-content-center" id="sign-mail" placeholder="Enter Your Email"/>
+                  </div>
+    
+                  <div class="form-group mb-3 mx-5">
+                    <input type="password" class="form-control border-white  fs-5 d-flex align-items-center justify-content-center" id="sign-pass" placeholder="Enter Your Password"/>
+                  </div>
+                  <span id="refused" class="text-danger d-none align-items-center justify-content-center">Please make sure that u have Entered all info correct</span>
+                  <span id="successful" class="d-none align-items-center justify-content-center"> Registered successfuly </span>
+                  <div class="btns  mt-3 mb-3 mx-5 d-flex align-items-center justify-content-center">
+                    <button onclick="addUser()" id="sign-btn" class="w-100 rounded-3 fs-5 ">Sign Up</button>
+    
+                  </div>
+    
+                  
+                  <p class="d-flex text-white align-items-center justify-content-center fs-5 ">You have an account? <a href="./login.html" class="text-white ms-2">Sign in</a></p>
+        </div>
+        </div>
+    </section>
+    <!--End Signup Section-->
+
+
+
+   
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
